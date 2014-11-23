@@ -30,7 +30,7 @@ def main():
                 out.append(cmap[c])
             else:
                 out.append('*')
-        print(''.join(out))
+        print(''.join(out[:-1]))
 
 if __name__ == '__main__':
     main()
